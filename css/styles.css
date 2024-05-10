@@ -1,0 +1,226 @@
+body{
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo-studio {
+        color: #2E2F42;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+
+.navigation {
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.logo-studio-navigation {
+    color: #2E2F42;
+}
+
+.navigation .logo-studio-navigation:hover,
+.navigation .logo-studio-navigation:focus{
+    color: #404bbf
+}
+
+
+.contact{
+        color: #434455;
+        font-style: normal;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.contact .e-mail{
+    color: #434455;
+}
+
+.contact .e-mail:hover,
+.contact .e-mail:focus{
+    color: #404bbf;
+}
+
+.title{
+    background-color: #2E2F42;
+}
+
+.title .title{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.title .button {
+    color: #FFFFFF; background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
+        cursor: pointer;
+}
+
+.title .button:hover,
+.title .button:focus{
+    background-color: #404BBF;
+}
+
+.section-of-work .solutions{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.section-of-work .solutions .p-solutions{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.section-of-work{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.our-team{
+    background: #F4F4FD;
+}
+
+.title-our-team{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.section-of-team .list-our-team{
+    background-color: #FFFFFF;
+}
+
+.section-of-team .name{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-of-team .profession{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.title-our-portfolio{
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.actions-name{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.action-department{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.end-of-page{
+    background-color: #2E2F42;
+}
+
+.end-of-page .logo{
+    color: #4D5AE5;
+         font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+
+.logo-studio-footer{
+    color: #f4f4fd;
+}
+
+.end-of-page .last-words{
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
