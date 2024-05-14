@@ -8,6 +8,14 @@ body{
     opacity: 0px;
 }
 
+img {
+    display: block;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container{
         width: 1158px;
         padding-left: 15px;
@@ -35,6 +43,7 @@ body{
     text-align: left;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 
@@ -46,6 +55,7 @@ body{
         line-height: 21px;
         letter-spacing: 0.03em;
         text-align: left;
+        margin: 0;
 }
 
 .navigation {
@@ -62,10 +72,12 @@ body{
 .navigation-list{
     display: flex;
     margin: 0;
+    gap: 40px;
 }
 
 .logo-studio-navigation {
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .navigation .logo-studio-navigation:hover,
@@ -86,7 +98,12 @@ body{
         text-decoration: none;
 }
 
-.contact .e-mail{
+.contact-list {
+        display: flex;
+        gap: 40px;
+}
+
+.contact .e-mail {
     color: #434455;
 }
 
@@ -97,9 +114,10 @@ body{
 
 .title{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
-.title .title{
+.title-main{
         color: #FFFFFF;
         font-family: Roboto;
         font-size: 56px;
@@ -107,6 +125,7 @@ body{
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
+        max-width: 496 px;
 }
 
 .title .button {
@@ -118,6 +137,12 @@ body{
         letter-spacing: 0.04em;
         text-align: left;
         cursor: pointer;
+
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 
 .title .button:hover,
@@ -125,7 +150,30 @@ body{
     background-color: #404BBF;
 }
 
-.section-of-work .solutions{
+.work {
+    padding: 120 px 0;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%0);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: no wrap;
+    width: 1px;
+}
+
+.work-list {
+    display: flex;
+    gap: 24px;
+}
+
+.work-item {
+    width: calc((100%-72px)/4);
+}
+
+.work-list .solutions {
         color: #2E2F42;
         font-family: Roboto;
         font-size: 20px;
@@ -133,8 +181,11 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+
+        margin-bottom: 8px;
+
 }
-.section-of-work .solutions .p-solutions{
+.work-list .solutions .p-solutions{
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -144,7 +195,7 @@ body{
     text-align: left;
 }
 
-.section-of-work{
+.work{
         color: #434455;
         font-family: Roboto;
         font-size: 16px;
@@ -156,6 +207,8 @@ body{
 
 .our-team{
     background: #F4F4FD;
+
+    padding: 120 px 0;
 }
 
 .title-our-team{
@@ -167,13 +220,27 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+
+        margin-bottom: 72px;
 }
 
-.section-of-team .list-our-team{
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team-list .our-team-item{
     background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
+    border-radius: 0 0 4 4;
 }
 
-.section-of-team .name{
+.employee {
+    padding: 32px 16px;
+}
+
+
+.our-team-list .name{
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -181,9 +248,11 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+
+    margin-bottom: 8px;
 }
 
-.section-of-team .profession{
+.our-team-list .profession{
         color: #434455;
         font-family: Roboto;
         font-size: 16px;
@@ -191,6 +260,11 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: center;
+}
+
+.portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .title-our-portfolio{
@@ -202,8 +276,27 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+
+        margin-bottom: 72px;
 }
 
+.our-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px)/3);
+}
+
+.aplication {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .actions-name{
         color: #2E2F42;
@@ -227,6 +320,7 @@ body{
 
 .end-of-page{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .end-of-page .logo{
@@ -237,6 +331,8 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .logo-studio-footer{
@@ -251,4 +347,6 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+
+    max-width: 264px;
 }
