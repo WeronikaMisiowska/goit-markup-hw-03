@@ -170,8 +170,8 @@ img {
     gap: 24px;
 }
 
-.work-list .work-item {
-    width: calc((100% - 72px)/4);
+.work .work-item {
+    width: calc((100%-72px)/4);
 }
 
 .work-list .solutions {
@@ -237,11 +237,8 @@ img {
 
 }
 
-.our-team-list .employee {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px
+.our-team-item .employee {
+    padding: 32px 16px;
 }
 
 
@@ -292,7 +289,7 @@ img {
     row-gap: 48px;
 }
 
-.portfolio-item {
+.our-portfolio .portfolio-item {
     width: calc((100%-48px)/3);
 }
 
