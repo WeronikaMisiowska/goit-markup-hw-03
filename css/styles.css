@@ -73,11 +73,14 @@ img {
     display: flex;
     margin: 0;
     gap: 40px;
+
+    list-style-type: none;
 }
 
 .logo-studio-navigation {
     color: #2E2F42;
     padding: 24px 0;
+    text-decoration: none;
 }
 
 .navigation .logo-studio-navigation:hover,
@@ -101,10 +104,13 @@ img {
 .contact-list {
         display: flex;
         gap: 40px;
+        list-style-type: none;
+        text-decoration: none;
 }
 
 .contact .e-mail {
     color: #434455;
+    text-decoration: none;
 }
 
 .contact .e-mail:hover,
@@ -289,6 +295,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 
 .our-portfolio .portfolio-item {
