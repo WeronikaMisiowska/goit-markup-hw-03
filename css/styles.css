@@ -166,11 +166,12 @@ img {
 }
 
 .work-list {
+    list-style-type: none;
     display: flex;
     gap: 24px;
 }
 
-.work .work-item {
+.work-list .work-item {
     width: calc((100%-72px)/4);
 }
 
@@ -226,6 +227,7 @@ img {
 }
 
 .our-team-list {
+    list-style-type: none;
     display: flex;
     gap: 24px;
 }
@@ -237,7 +239,7 @@ img {
 
 }
 
-.our-team-item .employee {
+.employee {
     padding: 32px 16px;
 }
 
@@ -308,6 +310,8 @@ img {
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+
+        margin-bottom: 8px;
 }
 
 .action-department{
@@ -318,8 +322,6 @@ img {
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
-
-        margin-bottom: 8px;
 }
 
 .end-of-page{
