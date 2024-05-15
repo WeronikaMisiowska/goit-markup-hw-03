@@ -178,7 +178,7 @@ img {
 }
 
 .work-list .work-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .work-list .solutions {
